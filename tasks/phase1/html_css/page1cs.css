@@ -1,0 +1,144 @@
+/* 1. GLOBAL & BASE STYLES */
+body {
+    background-color: rgb(231, 255, 224);
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+/* 2. HEADER / TOP PROFILE SECTION */
+.profile-header-container {
+    display: flex;
+    column-gap: 20px;
+    width: auto;
+}
+
+.profile-header-container > div > img {
+    border: 4px solid gray;
+    border-radius: 80px;
+    height: 100px;
+}
+
+.header-intro-text > p {
+    margin: 0px;
+    width: 30vmax;
+}
+
+.header-stats-box {
+    width: 25vmax;
+    display: block;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+}
+
+/* 3. MAIN CONTENT LAYOUT (ROW 2)  */
+.main-content-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --- COLUMN 1: LEFT SIDE CARDS --- */
+.left-cards-column {
+    /* Retained standard wrapper behavior */
+}
+
+.info-card {
+    padding: 10px;
+    margin-bottom: 5px;
+    height: auto;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.online-dot-icon {
+    width: 14px;
+    height: 14px;
+    background-color: #2ecc71; 
+    border-radius: 50%;         
+    display: inline-block; 
+    margin-right: 5px;   
+}
+   
+.followers-card {
+    margin-top: 20px;
+    padding: 10px;
+    height: auto;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.grid-avatar-images {
+    border-radius: 80px;
+    height: 39px;
+}
+
+/* --- COLUMN 2: CENTER SOCIAL FEED --- */
+.center-feed-container {
+    background-color: white;
+    width: 500px;
+    height: fit-content;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.feed-card-header {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    padding-top: 5px;
+}
+
+.feed-card-body {
+    flex-direction: row;
+    padding: 10px;
+}
+
+.profile-pic-round {
+    border: 4px solid gray;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.drop-down-arrow-btn {
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+
+/* --- COLUMN 3: MIDDLE TIMELINE INDICATORS --- */
+.middle-timeline-column {
+    margin-left: 80px;
+}
+
+.vertical-line-divider {
+    margin: 0 15px;
+    border-left: 2px solid #000000;
+    height: 200px;                  
+}
+
+/* --- COLUMN 4: RIGHT SIDE MEETING CARDS --- */
+.right-events-column {
+    /* Container layout wrapper */
+}
+
+.event-action-card {
+    background-color: white; 
+    height: 200px; 
+    padding: 10px; 
+    margin: 10px;
+    width: 230px;
+    border-radius: 5%;
+}

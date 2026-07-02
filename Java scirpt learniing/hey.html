@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="first_task.js" defer></script>
+     <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- main container div  -->
+     <div class=" border border-secondary-subtle rounded  p-2">
+        <!-- welcome div -->
+            <div class="h-1 bg-primary input-container rounded mx-auto" style="height: 50px; display: flex
+            ; justify-content: center; align-items: center; font-size: 35px; color:white" id="welcome-text">
+             </div>
+                     <!-- input container -->
+             <div class="container  p-2  " >
+            <label for="userBuy" class="m-1">Enter a Quantity</label>
+        <input type="text" id="userBuy">
+        <button type="submit" id="submitBtn" class="btn btn-success m-1" onclick="userBuy()">Submit</button>
+         </div>
+
+        <!-- store detail container -->
+         <div class="p-1">
+            <hr style="margin: 0;">
+            <div class="store-detail-text"> Store details</div>
+
+            <label for="book-title">tittle : </label>
+            <span id="book-title">book tittle</span>
+            <br>
+            <label for="book-price">price : </label>
+            <span id="book-price">book price</span>    
+            <br>
+            <label for="book-isAvaliable">Avaliable : </label>
+            <span id="book-isAvaliable">isAvaliable</span>      
+            <br> 
+            <label for="book-qunatityInstock">Stock : </label>
+            <span id="book-qunatityInstock">book tittle</span>
+         </div>
+         
+   
+</body>
+</html>
+

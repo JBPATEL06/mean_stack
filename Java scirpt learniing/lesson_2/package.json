@@ -1,0 +1,17 @@
+{
+  "name": "lesson_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filesystem.js",
+  "scripts": {
+    "start": "filesystem.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

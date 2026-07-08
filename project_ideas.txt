@@ -1,0 +1,53 @@
+
+1
+
+my project idea mean full stack web for 
+mechanic and electric learning
+where 
+customization provided 
+power house supply building task
+wire customization
+circuit customization
+each and every componet customization support 
+calculate power usage 
+
+vehicle modification
+engine modify
+vehicle body modifiction
+vehicle part modification
+vehicle test drive 
+vehicle safety test
+mini game for testing racing 
+
+computer customization
+ssd part modification
+ram modify 
+mother board modification
+performance test 
+power supply test
+
+student, teacher, gamer and rider need this? they want?
+competion?
+
+2
+
+ai work space all it one at palace
+
+figma work flow checker there any screen or page has mismatch or not
+figma small ui change using code base change 
+form data checker 
+context system log 
+	for total file name
+	class name 
+	function in class
+	function description
+	class description
+	file description
+db manager graph visuliazer
+app testing 
+git repo management 
+everything manage using mcp 
+unused files remover
+history of all md files 
+custome rule for this projects
+

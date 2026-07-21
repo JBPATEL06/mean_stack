@@ -1,0 +1,7 @@
+{
+    "workbench.editor.autoLockGroups": {
+        "default": true,
+        "mainThreadWebview-markdown.preview": true,
+        "workbench.input.interactive": true
+    }
+}

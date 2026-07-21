@@ -1,0 +1,21 @@
+.company-logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+body{
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-navbar > ul{
+    list-style-type:none;
+    display: flex;
+    gap: 10px;
+}
+.right-corner-nav{
+    padding: 10px;
+}
+

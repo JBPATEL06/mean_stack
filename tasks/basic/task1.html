@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auther Profle card </title>
+    <style>
+        .mybody {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+
+        }
+
+        .profil-card {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            border-radius: 5%;
+        }
+        .mybtn{
+            color: red !important;
+        }
+        .btn {
+            /* Centers them horizontally */
+            display: inline-block;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            background-color: skyblue;
+            padding: 2%;
+            height: calc(max-content + 10px);
+            margin-bottom: 2%;
+        }
+
+        .btn:hover {
+            font-size: 20px;
+            background-color: var(--hovercor, gray);
+        }
+    </style>
+</head>
+
+<body>
+    <header style="display: inline;">
+        <nav style="display: flex;">
+
+            <ul style="display: flex; gap: 20px; text-decoration: none; list-style: none; list-style-type: disc;">
+                <li>Home</li>
+                <li>about</li>
+                <li>feed back</li>
+                <li>profile</li>
+                <li>logout </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="mybody">
+        <div class="profil-card" style="padding-inline: 2%;">
+
+            <h1 style="max-width: fit-content; margin-inline: auto;  ">profile card</h1>
+            <img style="border-radius: 100%; margin-inline: auto; max-width: fit-content;display: block;"
+                src="profile.png" alt="profile" width="200px" height="200px">
+
+            <p>Name : Randome Person</p>
+            <p>Work : Write a psychological boooks and story books like:
+            <ol style="margin-left: 5%;">
+                <li>tere naam</li>
+
+                <li>risky ishq </li>
+            </ol>
+            </p>
+
+            <a class="btn" style="--hovercor : rgb(10, 102, 194);"
+                href="https://in.linkedin.com/in/jeel-bhanderi-316774292?trk=people-guest_people_search-card"
+                target="_blank">Linked in</a>
+
+            <a class="btn" style="--hovercor : orangered;" href="https://www.reddit.com/user/Agile-Chemical5709/"
+                target="_blank">reddit</a>
+        </div>
+    </div>
+
+    hey there
+    <h1>hey there</h1>
+
+
+    <select id="skills" multiple size="4">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="node">Node.js</option>
+    </select>
+    <button id="btn">submit</button>
+
+    <button class="mybtn" style="color: blue;">hye</button>
+
+
+    <script>
+        const btn = document.getElementById("btn");
+
+        btn.onclick = btnclick;
+
+        function btnclick() {
+            const select = document.getElementById("skills");
+
+            const values = Array.from(select.selectedOptions)
+                .map(option => option.value);
+
+            console.log(values);
+        }
+    </script>
+
+</body>
+
+</html>

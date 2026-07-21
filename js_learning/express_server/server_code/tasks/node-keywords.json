@@ -1,0 +1,2342 @@
+{
+  "assert": {
+    "functions": [
+      "assert",
+      "deepEqual",
+      "deepStrictEqual",
+      "doesNotMatch",
+      "doesNotReject",
+      "doesNotThrow",
+      "equal",
+      "fail",
+      "ifError",
+      "match",
+      "notDeepEqual",
+      "notDeepStrictEqual",
+      "notEqual",
+      "notStrictEqual",
+      "ok",
+      "rejects",
+      "strictEqual",
+      "throws",
+      "partialDeepStrictEqual"
+    ],
+    "classes": [
+      "assert.AssertionError",
+      "assert.Assert"
+    ],
+    "properties": [],
+    "assert.AssertionError": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "assert.Assert": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "asynchronous_context_tracking": {
+    "functions": [],
+    "classes": [
+      "AsyncLocalStorage",
+      "RunScope",
+      "AsyncResource"
+    ],
+    "properties": [],
+    "AsyncLocalStorage": {
+      "functions": [
+        "disable",
+        "getStore",
+        "enterWith",
+        "run",
+        "exit",
+        "withScope"
+      ],
+      "classes": [],
+      "properties": [
+        "name"
+      ]
+    },
+    "RunScope": {
+      "functions": [
+        "dispose"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "AsyncResource": {
+      "functions": [
+        "bind",
+        "runInAsyncScope",
+        "emitDestroy",
+        "asyncId",
+        "triggerAsyncId"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "async_hooks": {
+    "functions": [
+      "createHook"
+    ],
+    "classes": [
+      "AsyncHook",
+      "AsyncLocalStorage"
+    ],
+    "properties": [],
+    "AsyncHook": {
+      "functions": [
+        "enable",
+        "disable",
+        "executionAsyncResource",
+        "executionAsyncId",
+        "triggerAsyncId"
+      ],
+      "classes": [],
+      "properties": [
+        "asyncWrapProviders"
+      ]
+    },
+    "AsyncLocalStorage": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "buffer": {
+    "functions": [],
+    "classes": [
+      "Blob",
+      "Buffer",
+      "File"
+    ],
+    "properties": [],
+    "Blob": {
+      "functions": [
+        "arrayBuffer",
+        "bytes",
+        "slice",
+        "stream",
+        "text",
+        "textStream"
+      ],
+      "classes": [],
+      "properties": [
+        "size",
+        "type"
+      ]
+    },
+    "Buffer": {
+      "functions": [
+        "compare",
+        "copy",
+        "entries",
+        "equals",
+        "fill",
+        "includes",
+        "indexOf",
+        "keys",
+        "lastIndexOf",
+        "readBigInt64BE",
+        "readBigInt64LE",
+        "readBigUInt64BE",
+        "readBigUInt64LE",
+        "readDoubleBE",
+        "readDoubleLE",
+        "readFloatBE",
+        "readFloatLE",
+        "readInt8",
+        "readInt16BE",
+        "readInt16LE",
+        "readInt32BE",
+        "readInt32LE",
+        "readIntBE",
+        "readIntLE",
+        "readUInt8",
+        "readUInt16BE",
+        "readUInt16LE",
+        "readUInt32BE",
+        "readUInt32LE",
+        "readUIntBE",
+        "readUIntLE",
+        "subarray",
+        "slice",
+        "swap16",
+        "swap32",
+        "swap64",
+        "toJSON",
+        "toString",
+        "values",
+        "write",
+        "writeBigInt64BE",
+        "writeBigInt64LE",
+        "writeBigUInt64BE",
+        "writeBigUInt64LE",
+        "writeDoubleBE",
+        "writeDoubleLE",
+        "writeFloatBE",
+        "writeFloatLE",
+        "writeInt8",
+        "writeInt16BE",
+        "writeInt16LE",
+        "writeInt32BE",
+        "writeInt32LE",
+        "writeIntBE",
+        "writeIntLE",
+        "writeUInt8",
+        "writeUInt16BE",
+        "writeUInt16LE",
+        "writeUInt32BE",
+        "writeUInt32LE",
+        "writeUIntBE",
+        "writeUIntLE"
+      ],
+      "classes": [],
+      "properties": [
+        "poolSize",
+        "[index]",
+        "buffer",
+        "byteOffset",
+        "length",
+        "parent"
+      ]
+    },
+    "File": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "name",
+        "lastModified"
+      ]
+    }
+  },
+  "c++_embedder_api": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "child_process": {
+    "functions": [],
+    "classes": [
+      "ChildProcess"
+    ],
+    "properties": [],
+    "ChildProcess": {
+      "functions": [
+        "disconnect",
+        "kill",
+        "[Symbol.dispose]",
+        "ref",
+        "send",
+        "unref"
+      ],
+      "classes": [],
+      "properties": [
+        "channel",
+        "connected",
+        "exitCode",
+        "killed",
+        "pid",
+        "signalCode",
+        "spawnargs",
+        "spawnfile",
+        "stderr",
+        "stdin",
+        "stdio",
+        "stdout"
+      ]
+    }
+  },
+  "cluster": {
+    "functions": [
+      "disconnect",
+      "fork",
+      "setupMaster",
+      "setupPrimary"
+    ],
+    "classes": [
+      "Worker"
+    ],
+    "properties": [
+      "isMaster",
+      "isPrimary",
+      "isWorker",
+      "schedulingPolicy",
+      "settings",
+      "worker",
+      "workers"
+    ],
+    "Worker": {
+      "functions": [
+        "disconnect",
+        "isConnected",
+        "isDead",
+        "kill",
+        "send"
+      ],
+      "classes": [],
+      "properties": [
+        "exitedAfterDisconnect",
+        "id",
+        "process"
+      ]
+    }
+  },
+  "console": {
+    "functions": [],
+    "classes": [
+      "Console"
+    ],
+    "properties": [],
+    "Console": {
+      "functions": [
+        "assert",
+        "clear",
+        "count",
+        "countReset",
+        "debug",
+        "dir",
+        "dirxml",
+        "error",
+        "group",
+        "groupCollapsed",
+        "groupEnd",
+        "info",
+        "log",
+        "table",
+        "time",
+        "timeEnd",
+        "timeLog",
+        "trace",
+        "warn"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "crypto": {
+    "functions": [],
+    "classes": [
+      "Certificate",
+      "Cipheriv",
+      "Decipheriv",
+      "DiffieHellman",
+      "DiffieHellmanGroup",
+      "ECDH",
+      "Hash",
+      "Hmac",
+      "KeyObject",
+      "Sign",
+      "Verify",
+      "X509Certificate"
+    ],
+    "properties": [],
+    "Certificate": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "Cipheriv": {
+      "functions": [
+        "final",
+        "getAuthTag",
+        "setAAD",
+        "setAutoPadding",
+        "update"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "Decipheriv": {
+      "functions": [
+        "final",
+        "setAAD",
+        "setAuthTag",
+        "setAutoPadding",
+        "update"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "DiffieHellman": {
+      "functions": [
+        "computeSecret",
+        "generateKeys",
+        "getGenerator",
+        "getPrime",
+        "getPrivateKey",
+        "getPublicKey",
+        "setPrivateKey",
+        "setPublicKey"
+      ],
+      "classes": [],
+      "properties": [
+        "verifyError"
+      ]
+    },
+    "DiffieHellmanGroup": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "ECDH": {
+      "functions": [
+        "computeSecret",
+        "generateKeys",
+        "getPrivateKey",
+        "getPublicKey",
+        "setPrivateKey",
+        "setPublicKey"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "Hash": {
+      "functions": [
+        "copy",
+        "digest",
+        "update"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "Hmac": {
+      "functions": [
+        "digest",
+        "update"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "KeyObject": {
+      "functions": [
+        "equals",
+        "export",
+        "toCryptoKey"
+      ],
+      "classes": [],
+      "properties": [
+        "asymmetricKeyDetails",
+        "asymmetricKeyType",
+        "symmetricKeySize",
+        "type"
+      ]
+    },
+    "Sign": {
+      "functions": [
+        "sign",
+        "update"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "Verify": {
+      "functions": [
+        "update",
+        "verify"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "X509Certificate": {
+      "functions": [
+        "checkEmail",
+        "checkHost",
+        "checkIP",
+        "checkIssued",
+        "checkPrivateKey",
+        "toJSON",
+        "toLegacyObject",
+        "toString",
+        "verify"
+      ],
+      "classes": [],
+      "properties": [
+        "ca",
+        "fingerprint",
+        "fingerprint256",
+        "fingerprint512",
+        "infoAccess",
+        "issuer",
+        "issuerCertificate",
+        "keyUsage",
+        "publicKey",
+        "raw",
+        "serialNumber",
+        "subject",
+        "subjectAltName",
+        "validFrom",
+        "validFromDate",
+        "validTo",
+        "validToDate",
+        "signatureAlgorithm",
+        "signatureAlgorithmOid"
+      ]
+    }
+  },
+  "diagnostics_channel": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "dns": {
+    "functions": [
+      "getServers",
+      "lookup",
+      "lookupService",
+      "resolve",
+      "resolve4",
+      "resolve6",
+      "resolveAny",
+      "resolveCname",
+      "resolveCaa",
+      "resolveMx",
+      "resolveNaptr",
+      "resolveNs",
+      "resolvePtr",
+      "resolveSoa",
+      "resolveSrv",
+      "resolveTlsa",
+      "resolveTxt",
+      "reverse",
+      "setDefaultResultOrder",
+      "getDefaultResultOrder",
+      "setServers"
+    ],
+    "classes": [
+      "dns.Resolver"
+    ],
+    "properties": [],
+    "dns.Resolver": {
+      "functions": [
+        "Resolver",
+        "cancel",
+        "setLocalAddress"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "domain": {
+    "functions": [
+      "create"
+    ],
+    "classes": [
+      "Domain"
+    ],
+    "properties": [],
+    "Domain": {
+      "functions": [
+        "add",
+        "bind",
+        "enter",
+        "exit",
+        "intercept",
+        "remove",
+        "run"
+      ],
+      "classes": [],
+      "properties": [
+        "members"
+      ]
+    }
+  },
+  "environment_variables": {
+    "functions": [],
+    "classes": [],
+    "properties": [
+      "env"
+    ]
+  },
+  "events": {
+    "functions": [
+      "getEventListeners",
+      "getMaxListeners",
+      "once",
+      "listenerCount",
+      "on",
+      "setMaxListeners",
+      "addAbortListener"
+    ],
+    "classes": [
+      "EventEmitter",
+      "events.EventEmitterAsyncResource extends EventEmitter"
+    ],
+    "properties": [
+      "defaultMaxListeners",
+      "errorMonitor",
+      "captureRejections",
+      "captureRejectionSymbol"
+    ],
+    "EventEmitter": {
+      "functions": [
+        "addListener",
+        "emit",
+        "eventNames",
+        "getMaxListeners",
+        "listenerCount",
+        "listeners",
+        "off",
+        "on",
+        "once",
+        "prependListener",
+        "prependOnceListener",
+        "removeAllListeners",
+        "removeListener",
+        "setMaxListeners",
+        "rawListeners",
+        "[Symbol.for('nodejs.rejection')]"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "events.EventEmitterAsyncResource extends EventEmitter": {
+      "functions": [
+        "emitDestroy"
+      ],
+      "classes": [],
+      "properties": [
+        "asyncId",
+        "asyncResource",
+        "triggerAsyncId"
+      ]
+    }
+  },
+  "file_system": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "ffi": {
+    "functions": [
+      "dlopen",
+      "dlclose",
+      "dlsym",
+      "toString",
+      "toBuffer",
+      "toArrayBuffer",
+      "exportString",
+      "exportBuffer",
+      "exportArrayBuffer",
+      "exportArrayBufferView",
+      "getRawPointer"
+    ],
+    "classes": [
+      "DynamicLibrary"
+    ],
+    "properties": [
+      "suffix"
+    ],
+    "DynamicLibrary": {
+      "functions": [
+        "close",
+        "[Symbol.dispose]",
+        "getFunction",
+        "getFunctions",
+        "getSymbol",
+        "getSymbols",
+        "registerCallback",
+        "unregisterCallback",
+        "refCallback",
+        "unrefCallback"
+      ],
+      "classes": [],
+      "properties": [
+        "path",
+        "functions",
+        "symbols"
+      ]
+    }
+  },
+  "http": {
+    "functions": [
+      "createServer",
+      "get",
+      "get",
+      "request",
+      "request",
+      "validateHeaderName",
+      "validateHeaderValue",
+      "setMaxIdleHTTPParsers",
+      "setGlobalProxyFromEnv"
+    ],
+    "classes": [
+      "http.Agent",
+      "http.ClientRequest",
+      "http.Server",
+      "http.ServerResponse",
+      "http.IncomingMessage",
+      "http.OutgoingMessage",
+      "WebSocket"
+    ],
+    "properties": [
+      "METHODS",
+      "STATUS_CODES",
+      "globalAgent",
+      "maxHeaderSize"
+    ],
+    "http.Agent": {
+      "functions": [
+        "createConnection",
+        "keepSocketAlive",
+        "reuseSocket",
+        "destroy",
+        "getName"
+      ],
+      "classes": [],
+      "properties": [
+        "freeSockets",
+        "maxFreeSockets",
+        "maxSockets",
+        "maxTotalSockets",
+        "requests",
+        "sockets"
+      ]
+    },
+    "http.ClientRequest": {
+      "functions": [
+        "abort",
+        "cork",
+        "end",
+        "destroy",
+        "flushHeaders",
+        "getHeader",
+        "getHeaderNames",
+        "getHeaders",
+        "getRawHeaderNames",
+        "hasHeader",
+        "removeHeader",
+        "setHeader",
+        "setNoDelay",
+        "setSocketKeepAlive",
+        "setTimeout",
+        "uncork",
+        "write"
+      ],
+      "classes": [],
+      "properties": [
+        "aborted",
+        "connection",
+        "finished",
+        "maxHeadersCount",
+        "path",
+        "method",
+        "host",
+        "protocol",
+        "reusedSocket",
+        "socket",
+        "writableEnded",
+        "writableFinished"
+      ]
+    },
+    "http.Server": {
+      "functions": [
+        "close",
+        "closeAllConnections",
+        "closeIdleConnections",
+        "listen",
+        "setTimeout",
+        "[Symbol.asyncDispose]"
+      ],
+      "classes": [],
+      "properties": [
+        "headersTimeout",
+        "listening",
+        "maxHeadersCount",
+        "requestTimeout",
+        "maxRequestsPerSocket",
+        "timeout",
+        "keepAliveTimeout",
+        "keepAliveTimeoutBuffer"
+      ]
+    },
+    "http.ServerResponse": {
+      "functions": [
+        "addTrailers",
+        "cork",
+        "end",
+        "flushHeaders",
+        "getHeader",
+        "getHeaderNames",
+        "getHeaders",
+        "hasHeader",
+        "removeHeader",
+        "setHeader",
+        "setTimeout",
+        "uncork",
+        "write",
+        "writeContinue",
+        "writeEarlyHints",
+        "writeHead",
+        "writeInformation",
+        "writeProcessing"
+      ],
+      "classes": [],
+      "properties": [
+        "connection",
+        "finished",
+        "headersSent",
+        "req",
+        "sendDate",
+        "socket",
+        "statusCode",
+        "statusMessage",
+        "strictContentLength",
+        "writableEnded",
+        "writableFinished"
+      ]
+    },
+    "http.IncomingMessage": {
+      "functions": [
+        "destroy",
+        "setTimeout"
+      ],
+      "classes": [],
+      "properties": [
+        "aborted",
+        "complete",
+        "connection",
+        "headers",
+        "headersDistinct",
+        "httpVersion",
+        "method",
+        "rawHeaders",
+        "rawTrailers",
+        "signal",
+        "socket",
+        "statusCode",
+        "statusMessage",
+        "trailers",
+        "trailersDistinct",
+        "url"
+      ]
+    },
+    "http.OutgoingMessage": {
+      "functions": [
+        "addTrailers",
+        "appendHeader",
+        "cork",
+        "destroy",
+        "end",
+        "flushHeaders",
+        "getHeader",
+        "getHeaderNames",
+        "getHeaders",
+        "hasHeader",
+        "pipe",
+        "removeHeader",
+        "setHeader",
+        "setHeaders",
+        "setTimeout",
+        "uncork",
+        "write"
+      ],
+      "classes": [],
+      "properties": [
+        "connection",
+        "headersSent",
+        "socket",
+        "writableCorked",
+        "writableEnded",
+        "writableFinished",
+        "writableHighWaterMark",
+        "writableLength",
+        "writableObjectMode"
+      ]
+    },
+    "WebSocket": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "http/2": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "https": {
+    "functions": [
+      "createServer",
+      "get",
+      "get",
+      "request",
+      "request"
+    ],
+    "classes": [
+      "https.Agent",
+      "https.Server"
+    ],
+    "properties": [
+      "globalAgent"
+    ],
+    "https.Agent": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "https.Server": {
+      "functions": [
+        "close",
+        "[Symbol.asyncDispose]",
+        "closeAllConnections",
+        "closeIdleConnections",
+        "listen",
+        "setTimeout"
+      ],
+      "classes": [],
+      "properties": [
+        "headersTimeout",
+        "maxHeadersCount",
+        "requestTimeout",
+        "timeout",
+        "keepAliveTimeout"
+      ]
+    }
+  },
+  "inspector": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "iterable_streams": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "modules:_commonjs_modules": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "modules:_`node:module`_api": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "modules:_typescript": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "net": {
+    "functions": [
+      "connect",
+      "createConnection",
+      "createServer",
+      "getDefaultAutoSelectFamily",
+      "setDefaultAutoSelectFamily",
+      "getDefaultAutoSelectFamilyAttemptTimeout",
+      "setDefaultAutoSelectFamilyAttemptTimeout",
+      "isIP",
+      "isIPv4",
+      "isIPv6"
+    ],
+    "classes": [
+      "net.BlockList",
+      "net.SocketAddress",
+      "net.Server",
+      "net.Socket",
+      "net.BoundSocket"
+    ],
+    "properties": [],
+    "net.BlockList": {
+      "functions": [
+        "addAddress",
+        "addRange",
+        "addSubnet",
+        "check",
+        "isBlockList",
+        "fromJSON",
+        "toJSON"
+      ],
+      "classes": [],
+      "properties": [
+        "rules"
+      ]
+    },
+    "net.SocketAddress": {
+      "functions": [
+        "parse"
+      ],
+      "classes": [],
+      "properties": [
+        "address",
+        "family",
+        "flowlabel",
+        "port"
+      ]
+    },
+    "net.Server": {
+      "functions": [
+        "address",
+        "close",
+        "[Symbol.asyncDispose]",
+        "getConnections",
+        "listen",
+        "ref",
+        "unref"
+      ],
+      "classes": [],
+      "properties": [
+        "listening",
+        "maxConnections",
+        "dropMaxConnection"
+      ]
+    },
+    "net.Socket": {
+      "functions": [
+        "address",
+        "connect",
+        "destroy",
+        "destroySoon",
+        "end",
+        "pause",
+        "ref",
+        "resetAndDestroy",
+        "resume",
+        "setEncoding",
+        "setKeepAlive",
+        "setNoDelay",
+        "setTimeout",
+        "getTypeOfService",
+        "setTypeOfService",
+        "unref",
+        "write"
+      ],
+      "classes": [],
+      "properties": [
+        "autoSelectFamilyAttemptedAddresses",
+        "bufferSize",
+        "bytesRead",
+        "bytesWritten",
+        "connecting",
+        "destroyed",
+        "localAddress",
+        "localPort",
+        "localFamily",
+        "pending",
+        "remoteAddress",
+        "remoteFamily",
+        "remotePort",
+        "timeout",
+        "readyState"
+      ]
+    },
+    "net.BoundSocket": {
+      "functions": [
+        "address",
+        "fd",
+        "close",
+        "[Symbol.dispose]"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "os": {
+    "functions": [
+      "availableParallelism",
+      "arch",
+      "cpus",
+      "endianness",
+      "freemem",
+      "getPriority",
+      "homedir",
+      "hostname",
+      "loadavg",
+      "machine",
+      "networkInterfaces",
+      "platform",
+      "release",
+      "setPriority",
+      "tmpdir",
+      "totalmem",
+      "type",
+      "uptime",
+      "userInfo",
+      "version"
+    ],
+    "classes": [],
+    "properties": [
+      "EOL",
+      "constants",
+      "devNull"
+    ]
+  },
+  "path": {
+    "functions": [
+      "basename",
+      "dirname",
+      "extname",
+      "format",
+      "matchesGlob",
+      "isAbsolute",
+      "join",
+      "normalize",
+      "parse",
+      "relative",
+      "resolve",
+      "toNamespacedPath"
+    ],
+    "classes": [],
+    "properties": [
+      "delimiter",
+      "posix",
+      "sep",
+      "win32"
+    ]
+  },
+  "performance_measurement_apis": {
+    "functions": [
+      "createHistogram",
+      "eventLoopUtilization",
+      "monitorEventLoopDelay",
+      "timerify"
+    ],
+    "classes": [
+      "PerformanceEntry",
+      "PerformanceMark",
+      "PerformanceMeasure",
+      "PerformanceNodeEntry",
+      "PerformanceNodeTiming",
+      "PerformanceResourceTiming",
+      "PerformanceObserver",
+      "PerformanceObserverEntryList",
+      "Histogram",
+      "ELDHistogram extends Histogram",
+      "RecordableHistogram extends Histogram"
+    ],
+    "properties": [
+      "performance"
+    ],
+    "PerformanceEntry": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "duration",
+        "entryType",
+        "name",
+        "startTime"
+      ]
+    },
+    "PerformanceMark": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "detail"
+      ]
+    },
+    "PerformanceMeasure": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "detail"
+      ]
+    },
+    "PerformanceNodeEntry": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "detail",
+        "flags",
+        "kind"
+      ]
+    },
+    "PerformanceNodeTiming": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "bootstrapComplete",
+        "environment",
+        "idleTime",
+        "loopExit",
+        "loopStart",
+        "nodeStart",
+        "uvMetricsInfo",
+        "v8Start"
+      ]
+    },
+    "PerformanceResourceTiming": {
+      "functions": [
+        "toJSON"
+      ],
+      "classes": [],
+      "properties": [
+        "workerStart",
+        "redirectStart",
+        "redirectEnd",
+        "fetchStart",
+        "domainLookupStart",
+        "domainLookupEnd",
+        "connectStart",
+        "connectEnd",
+        "secureConnectionStart",
+        "requestStart",
+        "responseEnd",
+        "transferSize",
+        "encodedBodySize",
+        "decodedBodySize"
+      ]
+    },
+    "PerformanceObserver": {
+      "functions": [
+        "disconnect",
+        "observe",
+        "takeRecords"
+      ],
+      "classes": [],
+      "properties": [
+        "supportedEntryTypes"
+      ]
+    },
+    "PerformanceObserverEntryList": {
+      "functions": [
+        "getEntries",
+        "getEntriesByName",
+        "getEntriesByType"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "Histogram": {
+      "functions": [
+        "percentile",
+        "percentileBigInt",
+        "reset"
+      ],
+      "classes": [],
+      "properties": [
+        "count",
+        "countBigInt",
+        "exceeds",
+        "exceedsBigInt",
+        "max",
+        "maxBigInt",
+        "mean",
+        "min",
+        "minBigInt",
+        "percentiles",
+        "percentilesBigInt",
+        "stddev"
+      ]
+    },
+    "ELDHistogram extends Histogram": {
+      "functions": [
+        "disable",
+        "enable",
+        "[Symbol.dispose]"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "RecordableHistogram extends Histogram": {
+      "functions": [
+        "add",
+        "record",
+        "recordDelta"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "permissions": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "punycode": {
+    "functions": [
+      "decode",
+      "encode",
+      "toASCII",
+      "toUnicode"
+    ],
+    "classes": [],
+    "properties": [
+      "ucs2",
+      "version"
+    ]
+  },
+  "query_string": {
+    "functions": [
+      "decode",
+      "encode",
+      "escape",
+      "parse",
+      "stringify",
+      "unescape"
+    ],
+    "classes": [],
+    "properties": []
+  },
+  "readline": {
+    "functions": [
+      "emitKeypressEvents"
+    ],
+    "classes": [
+      "InterfaceConstructor"
+    ],
+    "properties": [],
+    "InterfaceConstructor": {
+      "functions": [
+        "close",
+        "[Symbol.dispose]",
+        "pause",
+        "prompt",
+        "resume",
+        "setPrompt",
+        "getPrompt",
+        "write",
+        "[Symbol.asyncIterator]",
+        "getCursorPos"
+      ],
+      "classes": [],
+      "properties": [
+        "line",
+        "cursor"
+      ]
+    }
+  },
+  "repl": {
+    "functions": [
+      "start"
+    ],
+    "classes": [
+      "REPLServer"
+    ],
+    "properties": [
+      "builtinModules"
+    ],
+    "REPLServer": {
+      "functions": [
+        "defineCommand",
+        "displayPrompt",
+        "clearBufferedCommand",
+        "setupHistory"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "single_executable_applications": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "sqlite": {
+    "functions": [
+      "backup"
+    ],
+    "classes": [
+      "DatabaseSync",
+      "Session",
+      "StatementSync",
+      "SQLTagStore"
+    ],
+    "properties": [
+      "constants"
+    ],
+    "DatabaseSync": {
+      "functions": [
+        "aggregate",
+        "close",
+        "loadExtension",
+        "enableLoadExtension",
+        "enableDefensive",
+        "location",
+        "exec",
+        "function",
+        "setAuthorizer",
+        "open",
+        "serialize",
+        "deserialize",
+        "prepare",
+        "createTagStore",
+        "createSession",
+        "applyChangeset",
+        "[Symbol.dispose]"
+      ],
+      "classes": [],
+      "properties": [
+        "isOpen",
+        "isTransaction",
+        "limits"
+      ]
+    },
+    "Session": {
+      "functions": [
+        "changeset",
+        "patchset",
+        "close",
+        "[Symbol.dispose]"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "StatementSync": {
+      "functions": [
+        "all",
+        "columns",
+        "get",
+        "iterate",
+        "run",
+        "setAllowBareNamedParameters",
+        "setAllowUnknownNamedParameters",
+        "setReturnArrays",
+        "setReadBigInts"
+      ],
+      "classes": [],
+      "properties": [
+        "expandedSQL",
+        "sourceSQL"
+      ]
+    },
+    "SQLTagStore": {
+      "functions": [
+        "all",
+        "get",
+        "iterate",
+        "run",
+        "clear"
+      ],
+      "classes": [],
+      "properties": [
+        "size",
+        "capacity",
+        "db"
+      ]
+    }
+  },
+  "stream": {
+    "functions": [
+      "finished",
+      "pipeline",
+      "pipeline",
+      "compose",
+      "isErrored",
+      "isReadable",
+      "isWritable",
+      "from",
+      "fromWeb",
+      "isDisturbed",
+      "toWeb",
+      "fromWeb",
+      "toWeb",
+      "from",
+      "fromWeb",
+      "toWeb",
+      "addAbortSignal",
+      "getDefaultHighWaterMark",
+      "setDefaultHighWaterMark",
+      "read",
+      "push"
+    ],
+    "classes": [],
+    "properties": []
+  },
+  "string_decoder": {
+    "functions": [],
+    "classes": [
+      "StringDecoder"
+    ],
+    "properties": [],
+    "StringDecoder": {
+      "functions": [
+        "end",
+        "write"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "test_runner": {
+    "functions": [
+      "run",
+      "suite",
+      "skip",
+      "todo",
+      "only",
+      "test",
+      "skip",
+      "todo",
+      "only",
+      "describe",
+      "skip",
+      "todo",
+      "only",
+      "it",
+      "skip",
+      "todo",
+      "only",
+      "before",
+      "after",
+      "beforeEach",
+      "afterEach",
+      "getTestContext"
+    ],
+    "classes": [
+      "MockFunctionContext",
+      "MockModuleContext",
+      "MockPropertyContext",
+      "MockTracker",
+      "MockTimers",
+      "TestsStream",
+      "TestContext",
+      "SuiteContext"
+    ],
+    "properties": [],
+    "MockFunctionContext": {
+      "functions": [
+        "callCount",
+        "mockImplementation",
+        "mockImplementationOnce",
+        "resetCalls",
+        "restore"
+      ],
+      "classes": [],
+      "properties": [
+        "calls"
+      ]
+    },
+    "MockModuleContext": {
+      "functions": [
+        "restore"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "MockPropertyContext": {
+      "functions": [
+        "accessCount",
+        "mockImplementation",
+        "mockImplementationOnce",
+        "resetAccesses",
+        "restore"
+      ],
+      "classes": [],
+      "properties": [
+        "accesses"
+      ]
+    },
+    "MockTracker": {
+      "functions": [
+        "fn",
+        "getter",
+        "method",
+        "module",
+        "property",
+        "reset",
+        "restoreAll",
+        "setter"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "MockTimers": {
+      "functions": [
+        "enable",
+        "reset",
+        "[Symbol.dispose]",
+        "tick",
+        "runAll",
+        "setTime"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "TestsStream": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "TestContext": {
+      "functions": [
+        "before",
+        "beforeEach",
+        "after",
+        "afterEach",
+        "diagnostic",
+        "plan",
+        "runOnly",
+        "skip",
+        "todo",
+        "test",
+        "waitFor"
+      ],
+      "classes": [],
+      "properties": [
+        "assert",
+        "filePath",
+        "fullName",
+        "name",
+        "passed",
+        "error",
+        "attempt",
+        "tags",
+        "workerId",
+        "signal"
+      ]
+    },
+    "SuiteContext": {
+      "functions": [
+        "diagnostic"
+      ],
+      "classes": [],
+      "properties": [
+        "filePath",
+        "fullName",
+        "name",
+        "signal",
+        "passed",
+        "attempt"
+      ]
+    }
+  },
+  "timers": {
+    "functions": [],
+    "classes": [
+      "Immediate",
+      "Timeout"
+    ],
+    "properties": [],
+    "Immediate": {
+      "functions": [
+        "hasRef",
+        "ref",
+        "unref",
+        "[Symbol.dispose]"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "Timeout": {
+      "functions": [
+        "close",
+        "hasRef",
+        "ref",
+        "refresh",
+        "unref",
+        "[Symbol.toPrimitive]",
+        "[Symbol.dispose]"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "tls_(ssl)": {
+    "functions": [
+      "checkServerIdentity",
+      "connect",
+      "connect",
+      "connect",
+      "createSecureContext",
+      "createServer",
+      "setDefaultCACertificates",
+      "getCACertificates",
+      "getCiphers",
+      "getCertificateCompressionAlgorithms"
+    ],
+    "classes": [
+      "tls.Server",
+      "tls.TLSSocket"
+    ],
+    "properties": [
+      "rootCertificates",
+      "DEFAULT_ECDH_CURVE",
+      "DEFAULT_MAX_VERSION",
+      "DEFAULT_MIN_VERSION",
+      "DEFAULT_CIPHERS"
+    ],
+    "tls.Server": {
+      "functions": [
+        "addContext",
+        "address",
+        "close",
+        "getTicketKeys",
+        "listen",
+        "setSecureContext",
+        "setTicketKeys"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "tls.TLSSocket": {
+      "functions": [
+        "address",
+        "disableRenegotiation",
+        "enableTrace",
+        "exportKeyingMaterial",
+        "getCertificate",
+        "getCipher",
+        "getEphemeralKeyInfo",
+        "getFinished",
+        "getPeerCertificate",
+        "getPeerFinished",
+        "getPeerX509Certificate",
+        "getProtocol",
+        "getSession",
+        "getSharedSigalgs",
+        "getTLSTicket",
+        "getX509Certificate",
+        "isSessionReused",
+        "renegotiate",
+        "setKeyCert",
+        "setMaxSendFragment"
+      ],
+      "classes": [],
+      "properties": [
+        "authorizationError",
+        "authorized",
+        "encrypted",
+        "localAddress",
+        "localPort",
+        "remoteAddress",
+        "remoteFamily",
+        "remotePort"
+      ]
+    }
+  },
+  "trace_events": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "tty": {
+    "functions": [
+      "isatty"
+    ],
+    "classes": [
+      "tty.ReadStream",
+      "tty.WriteStream"
+    ],
+    "properties": [],
+    "tty.ReadStream": {
+      "functions": [
+        "setRawMode"
+      ],
+      "classes": [],
+      "properties": [
+        "isRaw",
+        "isTTY"
+      ]
+    },
+    "tty.WriteStream": {
+      "functions": [
+        "clearLine",
+        "clearScreenDown",
+        "cursorTo",
+        "getColorDepth",
+        "getWindowSize",
+        "hasColors",
+        "moveCursor"
+      ],
+      "classes": [],
+      "properties": [
+        "columns",
+        "isTTY",
+        "rows"
+      ]
+    }
+  },
+  "udp/datagram_sockets": {
+    "functions": [],
+    "classes": [
+      "dgram.Socket"
+    ],
+    "properties": [],
+    "dgram.Socket": {
+      "functions": [
+        "addMembership",
+        "addSourceSpecificMembership",
+        "address",
+        "bind",
+        "bind",
+        "bindSync",
+        "close",
+        "[Symbol.asyncDispose]",
+        "connect",
+        "connectSync",
+        "disconnect",
+        "dropMembership",
+        "dropSourceSpecificMembership",
+        "getRecvBufferSize",
+        "getSendBufferSize",
+        "getSendQueueSize",
+        "getSendQueueCount",
+        "ref",
+        "remoteAddress",
+        "send",
+        "setBroadcast",
+        "setMulticastInterface",
+        "setMulticastLoopback",
+        "setMulticastTTL",
+        "setRecvBufferSize",
+        "setSendBufferSize",
+        "setTTL",
+        "unref"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "url": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "util": {
+    "functions": [
+      "callbackify",
+      "convertProcessSignalToExitCode",
+      "debuglog",
+      "debug",
+      "deprecate",
+      "diff",
+      "format",
+      "formatWithOptions",
+      "getCallSites",
+      "getSystemErrorName",
+      "getSystemErrorMap",
+      "getSystemErrorMessage",
+      "setTraceSigInt",
+      "inherits",
+      "inspect",
+      "inspect",
+      "isDeepStrictEqual",
+      "parseArgs",
+      "parseEnv",
+      "promisify",
+      "stripVTControlCharacters",
+      "styleText",
+      "toUSVString",
+      "transferableAbortController",
+      "transferableAbortSignal",
+      "aborted"
+    ],
+    "classes": [
+      "util.MIMEType",
+      "util.MIMEParams",
+      "util.TextDecoder",
+      "util.TextEncoder"
+    ],
+    "properties": [
+      "types"
+    ],
+    "util.MIMEType": {
+      "functions": [
+        "toString",
+        "toJSON"
+      ],
+      "classes": [],
+      "properties": [
+        "type",
+        "subtype",
+        "essence",
+        "params"
+      ]
+    },
+    "util.MIMEParams": {
+      "functions": [
+        "delete",
+        "entries",
+        "get",
+        "has",
+        "keys",
+        "set",
+        "values",
+        "[Symbol.iterator]"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "util.TextDecoder": {
+      "functions": [
+        "decode"
+      ],
+      "classes": [],
+      "properties": [
+        "encoding",
+        "fatal",
+        "ignoreBOM"
+      ]
+    },
+    "util.TextEncoder": {
+      "functions": [
+        "encode",
+        "encodeInto"
+      ],
+      "classes": [],
+      "properties": [
+        "encoding"
+      ]
+    }
+  },
+  "v8": {
+    "functions": [
+      "cachedDataVersionTag",
+      "getHeapCodeStatistics",
+      "getHeapSnapshot",
+      "getHeapSpaceStatistics",
+      "getHeapStatistics",
+      "getCppHeapStatistics",
+      "queryObjects",
+      "setFlagsFromString",
+      "stopCoverage",
+      "takeCoverage",
+      "writeHeapSnapshot",
+      "setHeapSnapshotNearHeapLimit",
+      "isStringOneByteRepresentation",
+      "startCpuProfile",
+      "startHeapProfile"
+    ],
+    "classes": [
+      "v8.GCProfiler",
+      "SyncCPUProfileHandle",
+      "SyncHeapProfileHandle",
+      "CPUProfileHandle",
+      "HeapProfileHandle"
+    ],
+    "properties": [],
+    "v8.GCProfiler": {
+      "functions": [
+        "start",
+        "stop",
+        "[Symbol.dispose]"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "SyncCPUProfileHandle": {
+      "functions": [
+        "stop",
+        "[Symbol.dispose]"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "SyncHeapProfileHandle": {
+      "functions": [
+        "stop",
+        "[Symbol.dispose]"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "CPUProfileHandle": {
+      "functions": [
+        "stop",
+        "[Symbol.asyncDispose]"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "HeapProfileHandle": {
+      "functions": [
+        "stop",
+        "[Symbol.asyncDispose]"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "virtual_file_system": {
+    "functions": [
+      "create"
+    ],
+    "classes": [
+      "VirtualFileSystem",
+      "VirtualProvider",
+      "MemoryProvider",
+      "RealFSProvider"
+    ],
+    "properties": [],
+    "VirtualFileSystem": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "provider",
+        "readonly"
+      ]
+    },
+    "VirtualProvider": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "MemoryProvider": {
+      "functions": [
+        "setReadOnly"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "RealFSProvider": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "rootPath"
+      ]
+    }
+  },
+  "vm_(executing_javascript)": {
+    "functions": [
+      "compileFunction",
+      "createContext",
+      "isContext",
+      "measureMemory",
+      "runInContext",
+      "runInNewContext",
+      "runInThisContext"
+    ],
+    "classes": [
+      "vm.Script",
+      "vm.Module",
+      "vm.SourceTextModule",
+      "vm.SyntheticModule"
+    ],
+    "properties": [
+      "constants"
+    ],
+    "vm.Script": {
+      "functions": [
+        "createCachedData",
+        "runInContext",
+        "runInNewContext",
+        "runInThisContext"
+      ],
+      "classes": [],
+      "properties": [
+        "cachedDataRejected",
+        "sourceMapURL"
+      ]
+    },
+    "vm.Module": {
+      "functions": [
+        "evaluate",
+        "link"
+      ],
+      "classes": [],
+      "properties": [
+        "error",
+        "identifier",
+        "namespace",
+        "status"
+      ]
+    },
+    "vm.SourceTextModule": {
+      "functions": [
+        "createCachedData",
+        "hasAsyncGraph",
+        "hasTopLevelAwait",
+        "instantiate",
+        "linkRequests"
+      ],
+      "classes": [],
+      "properties": [
+        "dependencySpecifiers",
+        "moduleRequests"
+      ]
+    },
+    "vm.SyntheticModule": {
+      "functions": [
+        "setExport"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "webassembly_system_interface_(wasi)": {
+    "functions": [],
+    "classes": [
+      "WASI"
+    ],
+    "properties": [],
+    "WASI": {
+      "functions": [
+        "getImportObject",
+        "start",
+        "initialize",
+        "finalizeBindings"
+      ],
+      "classes": [],
+      "properties": [
+        "wasiImport"
+      ]
+    }
+  },
+  "web_crypto_api": {
+    "functions": [],
+    "classes": [
+      "Crypto",
+      "CryptoKey",
+      "CryptoKeyPair",
+      "SubtleCrypto"
+    ],
+    "properties": [],
+    "Crypto": {
+      "functions": [
+        "getRandomValues",
+        "randomUUID"
+      ],
+      "classes": [],
+      "properties": [
+        "subtle"
+      ]
+    },
+    "CryptoKey": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "algorithm",
+        "extractable",
+        "type",
+        "usages"
+      ]
+    },
+    "CryptoKeyPair": {
+      "functions": [],
+      "classes": [],
+      "properties": [
+        "privateKey",
+        "publicKey"
+      ]
+    },
+    "SubtleCrypto": {
+      "functions": [
+        "decapsulateBits",
+        "decapsulateKey",
+        "decrypt",
+        "deriveBits",
+        "deriveKey",
+        "digest",
+        "encapsulateBits",
+        "encapsulateKey",
+        "encrypt",
+        "exportKey",
+        "getPublicKey",
+        "generateKey",
+        "importKey",
+        "sign",
+        "unwrapKey",
+        "verify",
+        "wrapKey"
+      ],
+      "classes": [],
+      "properties": []
+    }
+  },
+  "web_streams_api": {
+    "functions": [],
+    "classes": [],
+    "properties": []
+  },
+  "worker_threads": {
+    "functions": [
+      "getEnvironmentData",
+      "markAsUntransferable",
+      "isMarkedAsUntransferable",
+      "markAsUncloneable",
+      "moveMessagePortToContext",
+      "postMessageToThread",
+      "receiveMessageOnPort",
+      "setEnvironmentData"
+    ],
+    "classes": [
+      "BroadcastChannel extends EventTarget",
+      "MessageChannel",
+      "MessagePort",
+      "Worker"
+    ],
+    "properties": [
+      "isInternalThread",
+      "isMainThread",
+      "parentPort",
+      "resourceLimits",
+      "SHARE_ENV",
+      "threadId",
+      "threadName",
+      "workerData",
+      "locks"
+    ],
+    "BroadcastChannel extends EventTarget": {
+      "functions": [
+        "close",
+        "postMessage",
+        "ref",
+        "unref"
+      ],
+      "classes": [],
+      "properties": [
+        "onmessage",
+        "onmessageerror"
+      ]
+    },
+    "MessageChannel": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "MessagePort": {
+      "functions": [
+        "close",
+        "postMessage",
+        "hasRef",
+        "ref",
+        "start",
+        "unref"
+      ],
+      "classes": [],
+      "properties": []
+    },
+    "Worker": {
+      "functions": [
+        "cpuUsage",
+        "getHeapSnapshot",
+        "getHeapStatistics",
+        "postMessage",
+        "ref",
+        "startCpuProfile",
+        "startHeapProfile",
+        "terminate",
+        "unref",
+        "[Symbol.asyncDispose]"
+      ],
+      "classes": [],
+      "properties": [
+        "performance",
+        "resourceLimits",
+        "stderr",
+        "stdin",
+        "stdout",
+        "threadId",
+        "threadName"
+      ]
+    }
+  },
+  "zlib": {
+    "functions": [
+      "crc32",
+      "createBrotliCompress",
+      "createBrotliDecompress",
+      "createDeflate",
+      "createDeflateRaw",
+      "createGunzip",
+      "createGzip",
+      "createInflate",
+      "createInflateRaw",
+      "createUnzip",
+      "createZstdCompress",
+      "createZstdDecompress",
+      "brotliCompress",
+      "brotliCompressSync",
+      "brotliDecompress",
+      "brotliDecompressSync",
+      "deflate",
+      "deflateSync",
+      "deflateRaw",
+      "deflateRawSync",
+      "gunzip",
+      "gunzipSync",
+      "gzip",
+      "gzipSync",
+      "inflate",
+      "inflateSync",
+      "inflateRaw",
+      "inflateRawSync",
+      "unzip",
+      "unzipSync",
+      "zstdCompress",
+      "zstdCompressSync",
+      "zstdDecompress",
+      "zstdDecompressSync"
+    ],
+    "classes": [
+      "zlib.BrotliCompress",
+      "zlib.BrotliDecompress",
+      "zlib.Deflate",
+      "zlib.DeflateRaw",
+      "zlib.Gunzip",
+      "zlib.Gzip",
+      "zlib.Inflate",
+      "zlib.InflateRaw",
+      "zlib.Unzip",
+      "zlib.ZlibBase",
+      "zlib.ZstdCompress",
+      "zlib.ZstdDecompress"
+    ],
+    "properties": [
+      "constants"
+    ],
+    "zlib.BrotliCompress": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.BrotliDecompress": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.Deflate": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.DeflateRaw": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.Gunzip": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.Gzip": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.Inflate": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.InflateRaw": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.Unzip": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.ZlibBase": {
+      "functions": [
+        "close",
+        "flush",
+        "params",
+        "reset"
+      ],
+      "classes": [],
+      "properties": [
+        "bytesWritten"
+      ]
+    },
+    "zlib.ZstdCompress": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    },
+    "zlib.ZstdDecompress": {
+      "functions": [],
+      "classes": [],
+      "properties": []
+    }
+  }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<title>Todo App</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f4f4f4;
+    font-family:sans-serif;
+}
+
+.card{
+    width:400px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.input-group{
+    display:flex;
+    gap:10px;
+    margin:15px 0;
+}
+
+input{
+    flex:1;
+    padding:10px;
+}
+
+button{
+    padding:10px 15px;
+    cursor:pointer;
+}
+
+ul{
+    list-style:none;
+    margin-top:15px;
+}
+
+li{
+    padding:10px;
+    background:#eee;
+    margin-bottom:8px;
+    cursor:pointer;
+}
+.myul > li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.myul li:has(input:checked){
+    background-color: #198754;
+    color: white;
+    
+   
+}
+.myul li > div :has(input:checked) > label{
+    opacity: 0;
+}
+.completed{
+    text-decoration:line-through;
+    opacity:.6;
+}
+
+.stats{
+    margin-top:15px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+
+    <h2>Todo App</h2>
+
+    <div class="input-group">
+        <input type="text" id="taskInput">
+        <button id="addBtn">Add</button>
+    </div>
+
+    <button id="clearBtn">Clear All</button>
+
+    <ul id="taskList" class="myul"></ul>
+
+    <div class="stats">
+        <p>Total: <span id="total">0</span></p>
+        <p>Completed: <span id="completed">0</span></p>
+    </div>
+
+</div>
+
+<!-- Write DOM JS Here -->
+ <!-- <script>
+    let totaltodo = 0;
+    let clearall = document.getElementById("clearBtn");
+    let total = document.getElementById("total");
+    total.innerText = totaltodo;
+    let my_todo = [];
+    let taskadd = document.getElementById("addBtn"); 
+    let clear_all = () => {clear_all_fun();}
+
+function newtask(){
+    console.log("clicked 1")
+    let task = document.getElementById("taskInput").value;
+    console.log("clicked 2")
+    if(task.trim() != "" && task != undefined){
+        console.log("clicked 3")
+        my_todo.push(task);
+        task.value = "";
+        add_in_ui();
+        totaltodo++;
+        total.innerText = totaltodo;
+        
+        
+    }
+    else{
+        alert("Please Enter Valid Value")
+        console.log("error")
+    }
+
+}
+taskadd.addEventListener("click",newtask);
+clearall.addEventListener("click",clear_all);
+</script> -->
+
+<!-- Write jQuery Version Here -->
+
+<script src="task3.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,40 @@
+IOT week 1
+1 b
+2 a b c
+3 c
+4 c
+5 b
+6 b
+7   
+8 c
+9 c
+10 (a), (b), and (d)
+11 a
+12 b
+13 b
+14 (a), (b), and (c)
+15 b
+
+cyber security nptel week 1
+1. Social Engineering
+2. A source of threat
+3. Spear-phishing
+4. Ransomware
+5. SCADA systems managing water treatment and power distribution
+6. False
+7. Information classification, secure storage, and enforced access policies
+8. A breach involving Protected Health Information (PHI)
+9. Integrity
+10. Information Security
+
+cloud computing week 1
+1 B
+2 C
+3 D
+4 B
+5 A
+6 C
+7 B
+8 A
+9 B
+10 B
